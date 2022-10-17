@@ -1,0 +1,63 @@
+nav {
+    border: 1px solid black;
+    padding: 30px;
+    height: 740px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-size: small;
+}
+
+nav span,
+a {
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+
+}
+
+a:hover {
+    color: #a71dfd;
+}
+
+.commite {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 130px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 3px;
+    font-size: small;
+    padding-right: 80px;
+
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(229, 225, 225);
+    color: black;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    position: relative;
+    left: 90px;
+}
+
+table {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
