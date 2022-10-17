@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Placement Cell</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      text-decoration: none;
+      font-family: 'Baloo Bhaina 2', cursive;
+      margin: 0%;
+      padding: 0%;
+    }
+
+    .flex1 {
+      font-size: 40px;
+      margin-top: 30px;
+    }
+
+    .flex2 {
+      margin-top: 50px;
+      margin-left: 100px;
+      font-size: 25px;
+      box-sizing: border-box;
+      width: fit-content;
+      border: solid #010105 1px;
+      padding: 5px;
+      background-color: antiquewhite;
+    }
+
+    #a1:hover {
+      text-shadow: 2px 2px rgb(127, 128, 241);
+    }
+
+    .flex3 {
+      position: absolute;
+      left: 420px;
+      top: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex1">
+    <h2><a href="#">Campus Placements</a></h2>
+    <h2><a href="studentVerification.html" target="my frame"> Student Verification</a></h2>
+  </div>
+
+  <div class="flex2">
+    <h3>Campus Placement</h3>
+    <ul>
+      <li><a id="a1" href="placementData2020-21.html" target="my frame">Placement Data:2020-21</a></li>
+      <li><a id="a1" href="placementData2019-20.html" target="my frame">Placement Data:2019-20</a></li>
+      <li><a id="a1" href="placementData2018-19.html" target="my frame">Placement Data:2018-19</a></li>
+      <li><a id="a1" href="placementData2017-18.html" target="my frame">Placement Data:2017-18</a></li>
+    </ul>
+  </div>
+
+  <div class="flex3">
+    <iframe name="my frame" src="placementData2020-21.html" width="750px" height="550px" style="border: none">
+    </iframe>
+  </div>
+</body>
+
+</html>
